@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trần Thị Thảo Vy - Nghệ thuật từ thiên nhiên</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #b89f89;
+      --bg: #f8f5f0;
+      --text: #2f2f2f;
+      --accent: #967259;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: #ddd0c8;
+    }
+
+    nav a {
+      color: #3c2f2f;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .gallery-item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .gallery-item p {
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trần Thị Thảo Vy</h1>
+    <p>Nghệ thuật thủ công từ thiên nhiên · Tự nhiên và tinh tế</p>
+  </header>
+
+  <nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#gallery">Bộ sưu tập</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <section id="about">
+    <h2>Giới thiệu</h2>
+    <p>
+      Tôi là một nghệ nhân trẻ đến từ miền Tây Nam Bộ, kế thừa nghề dệt chiếu truyền thống và mang hơi thở hiện đại vào từng sản phẩm thủ công. Tôi tin rằng: thiên nhiên là một nghệ sĩ vĩ đại, và tôi chỉ là người kể lại câu chuyện đó qua cói, lác, cỏ bàng, lá buông...
+    </p>
+    <p>
+      Từ chiếu truyền thống, tôi đã tạo ra hàng trăm mẫu sản phẩm mới như túi xách, balo, tranh chiếu, móc khóa, phụ kiện trang trí,... tất cả đều mang tính ứng dụng cao và đậm bản sắc Việt.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Bộ sưu tập</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="product1.jpg" alt="Chiếu cói gấp thêu tay">
+        <p>Chiếu cói gấp thêu tay</p>
+      </div>
+      <div class="gallery-item">
+        <img src="product2.jpg" alt="Túi đeo vai thủ công từ cỏ bàng">
+        <p>Túi đeo vai từ cỏ bàng</p>
+      </div>
+      <div class="gallery-item">
+        <img src="product3.jpg" alt="Móc khoá mini chiếu hoa văn dân tộc">
+        <p>Móc khoá chiếu mini</p>
+      </div>
+      <!-- Bạn có thể thêm sản phẩm mới tại đây -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <p>Email: thao.vy@example.com</p>
+    <p>Facebook: <a href="https://facebook.com/ocean.artisthandmade" target="_blank">Ocean - Nghệ thuật thủ công</a></p>
+    <p>Instagram: @ocean.art.vn</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ocean | Thiết kế bởi chính đôi tay và trái tim
+  </footer>
+</body>
+</html>
